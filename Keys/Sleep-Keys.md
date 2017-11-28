@@ -6,7 +6,7 @@ Sleep keys are something a lot of people enjoy to use for many reasons. Some rea
 You **MUST** change `time` to the amount of **Seconds**(s), **Minutes**(m), or **Hours**(h) that you want the command to wait for BEFORE it posts the message and/or does the command.
 
 ## Usage
-```js
+```ruby
 .auto .test={init}
 {sleep:3s}
 The sleep key worked!
