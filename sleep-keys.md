@@ -10,6 +10,7 @@ You **MUST** change `SLEEPFOR` to the amount of **Seconds**(s), **Minutes**(m), 
 
 
 ## Usage
+**{sleep:SLEEPFOR}**
 ```ruby
 .auto .test={init}
 {sleep:3s}
@@ -17,6 +18,7 @@ You **MUST** change `SLEEPFOR` to the amount of **Seconds**(s), **Minutes**(m), 
 The sleep key worked!
 ```
 
+**{sleep}{time:SLEEPFOR}{/sleep}**
 ```ruby
 .auto .test={init}
 {del}
