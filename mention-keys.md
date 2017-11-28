@@ -2,11 +2,11 @@
 Mention keys will mention anything (a user, a channel, a role, etc) and/or will either require/disallow mentions for a command. They can come in handy if people are spamming commands and don't know who Echo is responding to.
 
 #Key List
-`{user}` - Mentions the user that triggers the command OR the person that you mention when using the command.
-`{here}` - Does the @here mention
-`{everyone}` - Mentions @everyone
-`{mention}` - Requires a mention in order to use the command
-`{-mentions}` - Prevents keys from directing to mentioned user.
+**{user}** - Mentions the user that triggers the command OR the person that you mention when using the command.
+**{here}** - Does the @here mention
+**{everyone}** - Mentions @everyone
+**{mention}** - Requires a mention in order to use the command
+**{-mentions}** - Prevents keys from directing to mentioned user.
 
 #Usage
 **{user}**
