@@ -3,10 +3,15 @@ Delete keys are something a lot of people enjoy to use for many reasons. One rea
 
 #Key List
 `{del:TIME}` - Deletes the user's message after **x** time.
+
 `{delme:TIME}` - Deletes the bots message after **x** time.
+
 `{del*}` - Echo will **NOT** delete bot master's messages.
+
 `{delauto}` - Deletes the entire command from the A.R.S file after being triggered.
+
 `{clear:AMOUNT}` - Clears **x** amount of messages in the channel.
+
 `{tclear:AMOUNT}` - Clears **x** amount of messages from the user who used the command (or whomever was mentioned).
 
 #Usage
