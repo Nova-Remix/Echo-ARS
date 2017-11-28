@@ -28,4 +28,4 @@ The message was deleted and this message was sent first!
 ```
 
 # NOTE
-`{sleep:3s}` will sleep your ENTIRE command! If you only want certain things to wait before being triggered, I suggest linking to other rules. If you want to just sleep a message you want sent to the channel, then the `{sleep}{time:3s}` key can be useful for you.
+`{sleep:3s}` will sleep your ENTIRE command! If you only want certain things to wait before being triggered, I suggest linking to other rules. If you just want to sleep a message you want sent to the channel, then the `{sleep}{time:3s}` key can be useful for you.
