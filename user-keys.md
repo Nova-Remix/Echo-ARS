@@ -12,25 +12,25 @@ These keys will grab the ID/Username/Nickname of a user.
 
 # Usage
 **{rawid}**
-```ruby
+```rust
 .auto &.test={init}
 {user}'s ID is **{rawid}**
 ```
 
 **{/rawid}**
-```xl
+```rust
 .auto .test={init}
 The command user's ID is **{/rawid}**!
 ```
 
 **{/user}**
-```python
+```rust
 .auto &.test={init}
 The user's Username is **{/user}**!
 ```
 
 **{usernick}**
-```json
+```rust
 .auto &.test={init}
 The user's Nickname is **{usernick}**
 ```
