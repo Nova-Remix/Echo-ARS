@@ -12,7 +12,7 @@ These keys will grab the ID/Username/Nickname of a user.
 
 # Usage
 **{rawid}**
-```css
+```js
 .auto &.test={init}
 {user}'s ID is **{rawid}**
 ```
