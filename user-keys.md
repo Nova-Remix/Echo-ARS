@@ -24,19 +24,19 @@ The command user's ID is **{/rawid}**!
 ```
 
 **{/user}**
-```go
+```ruby
 .auto &.test={init}
 The user's Username is **{/user}**!
 ```
 
 **{usernick}**
-```go
+```ruby
 .auto &.test={init}
 The user's Nickname is **{usernick}**
 ```
 
 **{self}**
-```go
+```ruby
 .auto &.test={init}
 The user's Username is **{/user}**, and the person who ran the command is **{self}**
 ```
