@@ -12,13 +12,13 @@ These keys will grab the ID/Username/Nickname of a user.
 
 # Usage
 **{rawid}**
-```js
+```ruby
 .auto &.test={init}
 {user}'s ID is **{rawid}**
 ```
 
 **{/rawid}**
-```go
+```ruby
 .auto .test={init}
 The command user's ID is **{/rawid}**!
 ```
