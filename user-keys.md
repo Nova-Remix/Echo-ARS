@@ -6,11 +6,11 @@ These keys will grab the ID/Username/Nickname of a user.
 
 | Key | Description |
 | :---: | :--- |
-| **{rawid}** | Grabs the user's ID, either the command user \(if no mention is found\) or the mentioned user \(if a mention is found\). |
-| **{/rawid}** | This will ALWAYS print out the command user's ID, even if there was a mention found. |
+| **{rawid}** | Grabs the user's ID. Compatible with targeting \(@mentions\) |
+| **{/rawid}** | ALWAYS prints out the command user's ID. |
 | **{/user}** | Prints out user's Username \(Not their nickname\). Compatible with targeting \(@mentions\). |
 | **{usernick}** | Prints out the user's nickname. Compatible with targeting \(@mentions\). |
-| **{self}** | Returns the command user's username. Doesnt Doesn't matter if there was a mention found in the command or not. |
+| **{self}** | Returns the command user's username. |
 
 # Usage
 
