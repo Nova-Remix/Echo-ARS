@@ -10,7 +10,7 @@ Mention keys will mention anything \(a user, a channel, a role, etc\) and/or wil
 | **{here}** | Does the @here mention |
 | **{everyone}** | Does the @everyone mention |
 | **{mention}** | Requires a mention in order to use the command. |
-| **{-mentions}** | Keys won't direct to mentioned user. |
+| **{-mention}** | Keys won't direct to mentioned user. |
 
 # Usage
 
