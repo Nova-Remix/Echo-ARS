@@ -18,25 +18,25 @@ These keys will grab the ID/Username/Nickname of a user.
 ```
 
 **{/rawid}**
-```css
+```xl
 .auto .test={init}
 The command user's ID is **{/rawid}**!
 ```
 
 **{/user}**
-```cs
+```python
 .auto &.test={init}
 The user's Username is **{/user}**!
 ```
 
 **{usernick}**
-```js
+```json
 .auto &.test={init}
 The user's Nickname is **{usernick}**
 ```
 
 **{self}**
-```md
+```rust
 .auto &.test={init}
 The user's Username is **{/user}**, and the person who ran the command is **{self}**
 ```
