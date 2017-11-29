@@ -6,11 +6,11 @@ Mention keys will mention anything \(a user, a channel, a role, etc\) and/or wil
 
 | Key | Description |
 | :---: | :--- |
-| **{user}** | Mentions the user in the command. Compatible with targeting \(@mentions\). |
+| **{user}** | Mentions the user in the command. Compatible with targeting. |
 | **{here}** | Does the @here mention |
 | **{everyone}** | Does the @everyone mention |
 | **{mention}** | Requires a mention in order to use the command. |
-| **{-mention}** | Keys won't direct to mentioned user. |
+| **{-mentions}** | Keys won't direct to mentioned user. |
 
 # Usage
 
