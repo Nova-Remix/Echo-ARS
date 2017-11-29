@@ -1,11 +1,11 @@
-#
-Sleep Keys
+#Sleep Keys
 Sleep keys are something a lot of people enjoy to use for many reasons. Some reasons could be for deleting messages, others can be for making games and whatnot.
 
 ## Key List
-**{sleep}** - Sleeps the entire command for x amount of minutes/seconds/hours (Hours are not recommended)
-
-**{time}** - Sends a message after x amount of seconds/minutes/hours while the rest of the command takes effect immediately.
+| Key | Description |
+| :---: | :--- |
+| **{sleep}** | Sleeps the entire command for x amount of minutes/seconds/hours \(Hours are not recommended\) |
+| **{time}** | Sends a message after x amount of seconds/minutes/hours while the rest of the command takes effect immediately. |
 
 ## Usage
 **{sleep}**
