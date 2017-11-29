@@ -2,17 +2,14 @@
 Delete keys are something a lot of people enjoy to use for many reasons. One reason could be for deleting messages to keep a channel clean.
 
 #Key List
-`{del:TIME}` - Deletes the user's message after **x** time.
-
-`{delme:TIME}` - Deletes the bots message after **x** time.
-
-`{del*}` - Echo will **NOT** delete bot master's messages.
-
-`{delauto}` - Deletes the entire command from the A.R.S file after being triggered.
-
-`{clear:AMOUNT}` - Clears **x** amount of messages in the channel.
-
-`{tclear:AMOUNT}` - Clears **x** amount of messages from the user who used the command (or whomever was mentioned).
+| Key | Description |
+| :---: | :--- |
+| **{del}** | Deletes the user's message either instantly or after **x** time. |
+| **{delme}** | Deletes the bots message either instantly or after **x** time. |
+| **{del*}** | Echo will **NOT** delete bot master's messages. |
+| **{delauto}** | Deletes the entire command from the A.R.S file after being triggered. |
+| **{clear}** | Clears either 5 messages or **x** amount of messages in the channel. |
+| **{tclear}** | Clears either 5 or **x** amount of messages from the user who used the command \(or whomever was mentioned\) |
 
 #Usage
 **{del}**
@@ -56,9 +53,16 @@ This rule will work once. Try to use the trigger again. :)
 **{clear}**
 ```ruby
 .auto .test={init}
-{clear:5}
+{clear}
 I have cleared 5 messages from the channel!
 ```
+```ruby
+.auto .test={initunit}
+{clear:6}
+I have cleared 6 messages from the channel!
+```
+
+**{tclear}**
 ```ruby
 .auto .test={init}
 {tclear:5}
