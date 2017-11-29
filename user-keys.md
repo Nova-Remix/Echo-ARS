@@ -12,31 +12,31 @@ These keys will grab the ID/Username/Nickname of a user.
 
 # Usage
 **{rawid}**
-```rust
+```http
 .auto &.test={init}
 {user}'s ID is **{rawid}**
 ```
 
 **{/rawid}**
-```rust
+```cpp
 .auto .test={init}
 The command user's ID is **{/rawid}**!
 ```
 
 **{/user}**
-```rust
+```sql
 .auto &.test={init}
 The user's Username is **{/user}**!
 ```
 
 **{usernick}**
-```rust
+```bash
 .auto &.test={init}
 The user's Nickname is **{usernick}**
 ```
 
 **{self}**
-```rust
+```go
 .auto &.test={init}
 The user's Username is **{/user}**, and the person who ran the command is **{self}**
 ```
