@@ -4,8 +4,8 @@ Delete keys are something a lot of people enjoy to use for many reasons. One rea
 # Key List
 | Key | Description |
 | :---: | :--- |
-| **{del}** | Deletes the user's message either instantly or after **x** time. |
-| **{delme}** | Deletes the bots message either instantly or after **x** time. |
+| **{del}** | Deletes the user's message either instantly or after **x** [time](/README.md). |
+| **{delme}** | Deletes the bots message either instantly or after **x** [time](/README.md). |
 | **{del*}** | Echo will **NOT** delete bot master's messages. |
 | **{delauto}** | Deletes the entire command from the A.R.S file after being triggered. |
 | **{clear}** | Clears either 5 messages or **x** amount of messages in the channel. |
