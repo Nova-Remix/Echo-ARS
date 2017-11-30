@@ -1,7 +1,7 @@
-#Delete Keys AND Clear Keys
+# Delete Keys AND Clear Keys
 Delete keys are something a lot of people enjoy to use for many reasons. One reason could be for deleting messages to keep a channel clean.
 
-#Key List
+# Key List
 | Key | Description |
 | :---: | :--- |
 | **{del}** | Deletes the user's message either instantly or after **x** time. |
@@ -11,7 +11,7 @@ Delete keys are something a lot of people enjoy to use for many reasons. One rea
 | **{clear}** | Clears either 5 messages or **x** amount of messages in the channel. |
 | **{tclear}** | Clears either 5 or **x** amount of messages from the user who used the command \(or whomever was mentioned\) |
 
-#Usage
+# Usage
 **{del}**
 ```ruby
 .auto .test={init}
