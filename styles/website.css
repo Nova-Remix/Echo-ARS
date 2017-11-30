@@ -1,13 +1,11 @@
-<link rel="stylesheet" href="gitbook-markdown.css">
-<style>
-.markdown-body {
+.body {
   min-width: 200px;
   max-width: 790px;
   margin: 0 auto;
   padding: 30px;
+  background: black;
 }
-</style> 
-<article class="gitbook-markdown-body">
-<h1>Unicorns</h1>
-<p>All the things</p>
-</article>
+
+.h1 {
+  background: white;
+}
