@@ -2,7 +2,7 @@
     "plugins": ["theme-elixir"],
     "pluginsConfig": {
         "theme-elixir": {
-            "theme": "light"
+            "theme": "dark"
         }
     }
 }
