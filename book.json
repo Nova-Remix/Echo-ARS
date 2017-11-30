@@ -1,8 +1,8 @@
 {
-    "plugins": ["theme-bandwidth"],
+    "plugins": ["theme-elixir"],
     "pluginsConfig": {
-        "theme-api": {
-            "theme": "dark"
+        "theme-elixir": {
+            "theme": "light"
         }
     }
 }
