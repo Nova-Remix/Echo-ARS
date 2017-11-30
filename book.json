@@ -1,3 +1,6 @@
 {
-    "plugins": ["noembed"]
+    "plugins": ["noembed"],
+    "styles": {
+        "website": "./styles/pdf.sass"
+    }
 }
