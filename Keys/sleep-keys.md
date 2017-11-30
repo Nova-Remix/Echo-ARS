@@ -6,8 +6,8 @@ Sleep keys are something a lot of people enjoy to use for many reasons. Some rea
 
 | Key | Description |
 | :---: | :--- |
-| **{sleep}** | Sleeps the entire command for x amount of [time](README.md) |
-| **{time}** | Sends a message after x amount of [time](README.md) while the rest of the command takes effect immediately. |
+| **{sleep}** | Sleeps the entire command for x amount of [time](/README.md) |
+| **{time}** | Sends a message after x amount of [time](/README.md) while the rest of the command takes effect immediately. |
 
 ## Usage
 
