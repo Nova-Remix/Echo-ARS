@@ -1,6 +1,8 @@
 {
-    "plugins": ["noembed"],
-    "styles": {
-        "website": "./styles/website.css"
+    "plugins": ["theme-bandwidth"],
+    "pluginsConfig": {
+        "theme-api": {
+            "theme": "dark"
+        }
     }
 }
