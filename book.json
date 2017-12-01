@@ -1,8 +1,6 @@
 {
-    "plugins": ["theme-elixir"],
-    "pluginsConfig": {
-        "theme-elixir": {
-            "theme": "dark"
-        }
+    "plugins": ["noembed"],
+    "styles": {
+        "website": "./styles/website.css"
     }
 }
