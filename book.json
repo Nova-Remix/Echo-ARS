@@ -1,6 +1,3 @@
 {
-    "plugins": ["noembed"],
-    "styles": {
-        "website": "./styles/website.css"
-    }
+    "plugins": ["noembed"]
 }
