@@ -5,7 +5,7 @@
 * [Donator Content](Donators/content.md)
   * [Edit Roles](Donators/edit-roles.md)
   * [JavaScript](Donators/JavaScript.md)
-* [Keys](keys.md)
+* Keys
   * [Sleep Keys](Keys/sleep-keys.md)
   * [Delete Keys](Keys/delete-keys.md)
   * [Mention Keys](Keys/mention-keys.md)
