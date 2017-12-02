@@ -2,7 +2,8 @@
 
 * [Introduction](README.md)
 * [Creating a Command](Commands/creating-a-command.md)
-* [Donator Content](donator-content/donator-content.md)
+* [Donator Content](Donators/content.md)
+  * [Edit Roles](Donators/edit-roles.md)
 * [Keys](keys.md)
   * [Sleep Keys](Keys/sleep-keys.md)
   * [Delete Keys](Keys/delete-keys.md)
