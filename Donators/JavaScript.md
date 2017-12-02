@@ -6,7 +6,8 @@ This is the base command to tell Echo we will be using JS:
 ```js
 #js >>
 //Code Here
->>```
+>>
+```
 
 # Built-in Variables
 | Function Name | Description |
@@ -35,11 +36,13 @@ This is how we can use Databases inside of JS. Say we had a database called **Qu
 use Quotes; //Grabbing the Database
 //resp is the message that gets sent to the channel
 resp = Quote[RawUserID]; //DBname[Variable]
->>```
+>>
+```
 TADA! As simple as that. Now, if we had a variable that looked similar to **USERID-quotes**, then it would be slightly different.
 ```js
 .auto .quote={init}
 #js >> //Calling the JS
 use Quotes; //Database Name
 resp = Quotes[RawUserID + "-quotes"]; //DB[UserID + "Variable"]
->>```
+>>
+```
