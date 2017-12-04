@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Creating a Command](Commands/creating-a-command.md)
-* [Donator Content](Donators/content.md)
+* Donator Content
   * [Edit Roles](Donators/edit-roles.md)
   * [JavaScript](Donators/JavaScript.md)
 * Keys
