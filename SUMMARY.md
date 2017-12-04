@@ -11,3 +11,5 @@
   * [Mention Keys](Keys/mention-keys.md)
   * [User Keys](Keys/user-keys.md)
   * [Message Keys](Keys/message-keys.md)
+* [FAQs](faqs.md)
+
