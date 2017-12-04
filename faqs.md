@@ -18,4 +18,4 @@ and you trigger it by typing
 ```
 then Echo will end up adding **.Test** into the **{params}** since you used a capital letter instead of a lowercase letter.
 # Am I allowed to use Everything Triggers?
-For those who don't know what Everything Triggers are, they are triggers that will be triggered either **every single message** sent or even **most messages** sent. Everything Triggers are ABSOLUTELY forbidden from being used with Echo. If anyone is found using an Everything Trigger, they will be **ARS Banned** (Meaning they can no longer create custom commands).
+For those who don't know what Everything Triggers are, they are triggers that will be triggered either **every single message** sent or even **most messages** sent. Everything Triggers are ABSOLUTELY forbidden from being used with Echo due to the lag it would cause for everyone else using the bot AND Echo would possibly get banned from Discord due to flooding their API. If anyone is found using an Everything Trigger, they will be **ARS Banned** (Meaning they can no longer create custom commands).
