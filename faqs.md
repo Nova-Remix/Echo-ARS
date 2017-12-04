@@ -1,6 +1,6 @@
 # Does Echo have features regarding music or voice channels?
 No, Echo does not have features regarding music or voice channels. The only feature that will be regarding anything with Voice Channels is the Channel Permissions key for Donators. We would love to see Echo with those features; however, this is not the end of the world. There are a lot of good music/audio bots out there.
-# Q: How can I let Echo react to other Bots?
+# How can I let Echo react to other Bots?
 You can't, the reason being because we had to take safety precautions Echo. This feature will not be added, so please do not complain and/or ask about it.
 # Why does the {joined} key return NaN in some cases?
 Discord doesn't always send the correct data therefore causing Echo to replace **{joined}** with NaN instead of the Join Date.
