@@ -141,6 +141,7 @@ The greet message for your server is **{greet}**
 .auto .mybye={init}
 The bye message for your server is **{bye}**
 ```
+**{alert}**
 ```ruby
 .auto .test={init}
 {alert:USERID} //Change USERID to the User's ID you want to alert
