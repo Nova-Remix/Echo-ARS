@@ -63,15 +63,17 @@ resp = myroles.join("\n");
 
 # Global Custom Functions
 Even though Echo does in fact have prebuilt variables, I decided why not make some things more simple for others to use. So, here's a list of functions I have made so you guys can shorten up your code. **NOTE** all functions come with error handling! If something goes wrong, it will send a message to the channel saying the error.
+
 | Function | Description |
 | :---: | :--- |
 | **send()** | Works just like **resp = "message"**, except you would do **send("message");** |
-| **embed()** | A more simple way of making an embed in JS. Currently only supports a title, description, and field 1 name + field 1 value. If you want something to appear "empty", just type "BL" into the area |
+| **embed()** | A more simple way of making an embed in JS. Currently only supports a title, description, and field 1 name + field 1 value, plus a color for the embed. If you want something to appear "empty", just type "BL" into the area |
 | **rNum()** | Chooses a random number between the minimum and maximum |
 | **userRoles()** | Gets all the roles the user has |
 | **string()** | Simplified version of **JSON.stringify()** |
 | **parse()** | Simplified version of **JSON.parse()** |
 | **int()** | Simplified version of **parseInt()** |
+| **search()** | Searches an array to see if it includes the given keyword. Credit goes to **Juny** for helping me with this one |
 
 # Usage
 **send(content)**
@@ -83,13 +85,13 @@ import "https://raw.githubusercontent.com/Nova-Remix/Echo-Functions/master/funct
 send("O-O It works....");
 >>
 ```
-**embed(title, description, field1name, field1value, field1inline)**
+**embed(title, description, field1name, field1value, embedcolor)**
 ```js
 .auto .test={init}
 #js >>
 import "https://raw.githubusercontent.com/Nova-Remix/Echo-Functions/master/functions.js";
 
-send(embed("This is a nice title", "This is a nice description too", "Aloha!", "Adios!", true));
+send(embed("This is a nice title", "This is a nice description too", "Aloha!", "Adios!", "#ffffff"));
 
 //If you do not provide a value for the field, it will leave it blank and keep the title; however, the embed will look a little funny.
 
@@ -112,5 +114,81 @@ send("Rolled the die!\n\n**You rolled a** " + rNum(1, 6));
 import "https://raw.githubusercontent.com/Nova-Remix/Echo-Functions/master/functions.js";
 
 send(userRoles(RawUserID).join("\n"));
+>>
+```
+**string(what)**
+```js
+.auto .test={init}
+#js >>
+import "https://raw.githubusercontent.com/Nova-Remix/Echo-Functions/master/functions.js";
+var b = [
+  "JSON",
+  "Stringify"
+];
+
+send(string(b));
+>>
+```
+**parse(what)**
+```js
+.auto .test={init}
+#js >>
+import "https://raw.githubusercontent.com/Nova-Remix/Echo-Functions/master/functions.js";
+
+var a = "10";
+var b = "7";
+
+//The first 'a + b' being sent will return 107
+//The second 'a + b' will return 17
+//Just to give you an idea of what `parsing` is
+send(a + b +"\n\n" + (parse(a) + parse(b)));
+>>
+```
+**int(what)**
+```js
+.auto .test={init}
+#js >>
+import "https://raw.githubusercontent.com/Nova-Remix/Echo-Functions/master/functions.js";
+
+var a = "10.03838";
+
+//The first 'a' will print out "10.03838"
+//The second 'a' will print out "10"
+//Just to give an idea of what `parseInt()` is
+
+send(a + "\n\n" + int(a));
+>>
+```
+**search(what, keyword)**
+```js
+.auto .test={init}
+#js >>
+import "https://raw.githubusercontent.com/Nova-Remix/Echo-Functions/master/functions.js";
+
+var a = [
+  "Search",
+  "through",
+  "array"
+];
+
+send(search(a, "through")); //Returns 'true'
+>>
+```
+```js
+.auto .test={init}
+#js >>
+import "https://raw.githubusercontent.com/Nova-Remix/Echo-Functions/master/functions.js";
+
+var a = [
+  "Search",
+  "through",
+  "array"
+];
+
+if(search(a, "through") === 'true') {
+  send("Contains word!");
+} else {
+  send("Doesn't contain word!");
+}
 >>
 ```
