@@ -22,7 +22,7 @@ This is the base command to tell Echo we will be using JS:
 | **Server.Members** | A JSON Object of all the Server Members |
 | **Server.Roles** | A JSON Object of all the Server Roles |
 | **Server.Channels** | A JSON Object of all Server Channels |
-| **Server.OwnerID** | The server owners ID |
+| **ServerOwnerID** | The server owners ID |
 | **ChannelID** | The current channels ID |
 | **ChannelTopic** | The current channels Topic |
 | **ChannelName** | The current channels name |
