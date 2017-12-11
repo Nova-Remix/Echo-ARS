@@ -21,3 +21,17 @@ then Echo will end up adding **.Test** into the **{params}** since you used a ca
 For those who don't know what Everything Triggers are, they are triggers that will be triggered either **every single message** sent or even **most messages** sent. Everything Triggers are ABSOLUTELY forbidden from being used with Echo due to the lag it would cause for everyone else using the bot AND Echo would possibly get banned from Discord due to flooding their API. If anyone is found using an Everything Trigger, they will be **ARS Banned** (Meaning they can no longer create custom commands).
 # How do I get access to the Donator Content?
 In order for you to be able to use any of this content, you must [donate](https://www.patreon.com/echobot) to the Patreon. All money goes towards paying for hosting Echo on a better VPS. None of it will be used for personal advantages.
+# How do I edit a command that already exists?
+To edit a command that already exists, all you would need to do is type
+```js
+.auto <The EXACT trigger that already exists>={init}<Edited Code>
+```
+# How do I delete a command?
+In order to delete a command, all you would need to do is type
+```js
+.delauto <The EXACT trigger>
+```
+Want to delete multiple commands at once? Type in
+```js
+.delauto <Trigger1> .. <Trigger2> .. <Trigger3> .. Etc
+```
